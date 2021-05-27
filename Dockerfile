@@ -25,6 +25,8 @@ ENV S6_KILL_GRACETIME=0
 
 # Sync disks is enabled so that data is properly flushed.
 ENV S6_SYNC_DISKS=1
+# Change to your website url
+ENV url=http://example.com
 
 ENTRYPOINT [ "/init" ]
 
